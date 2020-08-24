@@ -1,0 +1,1 @@
+Get-ADUser  -property name, scriptpath, homedrive, homedirectory -Filter * | select name, scriptpath, homedrive, homedirectory > c:\temp\new_all_users_logon_info_01022020.txt

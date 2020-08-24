@@ -1,0 +1,13 @@
+$ServerName = Get-Content "C:\Users\steadmin\Desktop\All_Machines_01082020.txt"  
+  
+foreach ($Server in $ServerName) {  
+  
+        if (test-Connection -ComputerName $Server -Count 2 -Quiet )
+             {
+             
+        Resolve-DNSName -Name $Server -type A | Select Name,IPAddress
+        Get-CimInstance -ClassName Win32_ComputerSystem -ComputerName $Server
+
+             } 
+                  
+}
