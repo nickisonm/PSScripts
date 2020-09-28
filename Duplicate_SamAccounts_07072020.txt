@@ -1,5 +1,3 @@
-Mike,
-
                 I ran the following script on the Bryton “jump box”:
 
                 Get-ADUser | Format-Table SamAccountName > "C:\Temp\SamAccountNames_Outfile2_07062020.csv" 
@@ -8,4 +6,4 @@ Mike,
 
                 =IF(MAX(COUNTIF(A1:A94, A1:A94))>1,"Duplicate","No Duplicate")
 
-                Which compares the name in that row to all the names to see if any ‘duplicates’ matches……..the resulting file is now in the Bryton Teams Files Share called “Bryton_Birkova_SamAccounts_07072020.xlsx”. 
+                Which compares the name in that row to all the names to see if any ‘duplicates’ matches……..the resulting file is now in the Bryton Teams Files Share called “SamAccounts_07072020.xlsx”. 
