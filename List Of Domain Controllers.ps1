@@ -1,0 +1,1 @@
+nltest /dclist:domain.com
