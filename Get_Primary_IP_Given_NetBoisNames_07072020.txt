@@ -1,4 +1,4 @@
-$servers = get-content "C:\Users\steadmin\Desktop\All_Machines_01082020.txt"
+$servers = get-content "C:\Users\default\Desktop\All_Machines_01082020.txt"
 $serversAndIps ="X:\test.csv"
 
 $results = @()
