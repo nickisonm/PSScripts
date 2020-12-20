@@ -1,4 +1,4 @@
-                I ran the following script on the Bryton “jump box”:
+                I ran the following script on the company “jump box”:
 
                 Get-ADUser | Format-Table SamAccountName > "C:\Temp\SamAccountNames_Outfile2_07062020.csv" 
 
